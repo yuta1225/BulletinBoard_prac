@@ -1,0 +1,44 @@
+#form {
+    position: fixed;
+    width:100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 900px;
+    padding-left: 10px;
+    background-color: aliceblue;
+}
+#msgbox{
+    height: 450px;
+    width: 300px;
+    max-width: 400px;
+    max-height: 475px;
+    display: block;
+    margin-top: 5px;
+}
+#time {
+    display: inline;
+}
+#sentbtn {
+    margin-bottom: 10px;
+}
+
+/* レスポンシブデザイン(スマホ用) */
+@media  screen and (max-width:500px) {
+    #form {
+        margin-top: -310px;
+        position: fixed;
+        width: 100%;
+        height: 300px;
+        margin-left: 5px;
+        padding-left: 10px;
+        background-color: aliceblue;
+    }
+    #msgbox {
+        height: 150px;
+        max-height: 170px;
+        margin-top: 10px;
+    }
+    #tlbox {
+        margin-top: 300px;
+    }
+}
